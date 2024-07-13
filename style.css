@@ -21,6 +21,7 @@ em, th {
 
 .d-flex {
     display: flex;
+    align-items: center;
 }
 
 .container {
@@ -43,6 +44,7 @@ em, th {
 .table-bordered tr, .table-bordered td, .table-bordered th  {
     border: solid black 1px;
     border-collapse: collapse;
+    text-align: center;
 }
 
 .col-6 {
