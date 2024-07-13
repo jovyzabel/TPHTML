@@ -1,0 +1,54 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+h1{
+    color: green; 
+}
+h2{
+    color: blueviolet;
+}
+
+img{
+    width: 100%;
+}
+
+em, th {
+    color: rgb(230, 18, 18);
+    font-style: normal;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.container {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.table {
+    width: 100%;
+}
+.table-bordered {
+    border: solid black 1px;
+    border-collapse: collapse;
+}
+
+.table-bordered tr, .table-bordered td, .table-bordered th  {
+    border: solid black 1px;
+    border-collapse: collapse;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.ps-3 {
+    padding-left: 10px;
+}
