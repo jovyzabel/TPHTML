@@ -1,10 +1,10 @@
 *{
     font-family: 'Times New Roman', Times, serif;
-    
 }
 
 h1{
     color: green; 
+    
 }
 h2{
     color: blueviolet;
@@ -21,7 +21,7 @@ em, th {
 
 .d-flex {
     display: flex;
-    align-items: center;
+    /* align-items: start; */
 }
 
 .container {
@@ -53,4 +53,35 @@ em, th {
 
 .ps-3 {
     padding-left: 10px;
+}
+.pt-5{
+    padding-top: 18px;
+}
+
+
+/*media queries*/
+
+@media screen and (max-width:648px) {
+    .d-flex{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .text-align-center, h2{
+        text-align: center;
+    }
+    h1{
+        font-size: 5vw;
+    }
+    img{
+        /* width:120px;
+        height: 80px; */
+    }
+    .ps-3{
+        text-align: center;
+    }
 }
