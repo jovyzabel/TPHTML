@@ -102,3 +102,12 @@ input::placeholder{
     font-weight: lighter;
 }
 
+.redirection{
+    position: absolute;
+    top: 25px;
+    right: 10px;
+}
+.redirection a{
+    text-decoration: underline;
+    color: var(--danger);
+}
